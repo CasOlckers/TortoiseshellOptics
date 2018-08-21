@@ -11,10 +11,57 @@ html {
 width: 1600px;
 height: 1240px;
 
+}
 
+/*IPADS*/
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+
+  .pageContainer {
+    width: 100%;
+    overflow: scroll;
+  }
+
+  .siteContainer {
+    position: fixed;
+  }
+
+  .siteContainer2 {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    width: 15%;
+    height: 3rem;
+    position: absolute;
+    background: white;
+    opacity: 0.5;
+    color: black;
+    top: 10rem;
+    margin-left: 4rem;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 1.33rem;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 1.2;
+  }
+  .upperContainer img {
+    width: 100%;
+    height: 22rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 4px;
+}
+
+/*IPhone*/
+
+@media only screen and (min-width: 375px) and (max-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
 
 
 }
+
+
 
 /* Site Container */
 .siteContainer {
@@ -23,7 +70,6 @@ flex-direction: row;
 align-items: center;
 width: 960px;
 height: 3rem;
-border: 1px solid red;
 position: absolute;
 background: cadetblue;
 opacity: 0.5;
@@ -34,7 +80,7 @@ margin-left: 6rem;
 font-family: Helvetica;
 font-size: 1rem;
 border-radius: 4px;
-
+position: fixed;
 
 }
 
