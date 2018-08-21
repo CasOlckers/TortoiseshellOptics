@@ -8,9 +8,9 @@ html {
 /* Page Container */
 
 .pageContainer {
-width: 1240px;
+width: 1600px;
 height: 1240px;
-border: 1px solid blue;
+
 
 
 
@@ -25,10 +25,10 @@ width: 960px;
 height: 3rem;
 border: 1px solid red;
 position: absolute;
-background: cadetblue; /* Black background with 0.5 opacity */
+background: cadetblue;
 opacity: 0.5;
-color: white; /* Grey text */
-padding: 20px; /* Some padding */
+color: white;
+padding: 20px;
 top: 1rem;
 margin-left: 6rem;
 font-family: Helvetica;
@@ -59,11 +59,10 @@ display: flex;
 flex-direction: row;
 width: 50%;
 height: 5rem;
-border: 1px solid red;
 position: absolute;
-background: white; /* Black background with 0.5 opacity */
+background: white;
 opacity: 0.5;
-color: black; /* Grey text */
+color: black;
 top: 10rem;
 margin-left: 28rem;
 font-family: Helvetica;
@@ -88,7 +87,6 @@ padding-right: 5rem;
 .upperContainer {
   width: 100%;
   height: auto;
-  border: 1px solid purple;
   position: relative;
 
 
@@ -109,8 +107,7 @@ padding-right: 5rem;
 
 .lowerContainer {
   width: 960px;
-  height:50%;
-  border: 1px solid teal;
+  height:55%;
   margin-left: 7rem;
   display: flex;
   justify-content: center;
@@ -120,10 +117,9 @@ padding-right: 5rem;
 }
 
 .innerContainer1 {
-  width: 24rem;
-  height: 11rem;
+  width: 35rem;
+  height: 12rem;
   position: relative;
-  border: 1px dotted grey;
   margin-top: 3rem;
   display: flex;
   flex-direction: row;
@@ -133,38 +129,196 @@ padding-right: 5rem;
 }
 
 .icon1 {
-  width:5rem;
+  width:8rem;
   height: 8rem;
-  border: 1px solid red;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
-}
-
-
-
-.icon2 {
-  width:5rem;
-  height: 8rem;
-  border: 1px solid yellow;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  background-color: white;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  color: Grey;
+  font-family: Helvetica;
+  text-align: center;
+
+}
+
+.icon1 img {
+  max-width: 3.5rem;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 1rem;
+
+}
+
+.icon2 {
+  width:8rem;
+  height: 8rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  color: Grey;
+  font-family: Helvetica;
+  text-align: center;
+}
+
+.icon2 img {
+  max-width: 5rem;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 3rem;
+
 }
 
 .icon3 {
-  width:5rem;
+  width:8rem;
   height: 8rem;
-  border: 1px solid green;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  color: Grey;
+  font-family: Helvetica;
+  text-align: center;
+}
+
+.icon3 img {
+  max-width: 6rem;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 2rem;
+
 }
 
 .innerContainer2 {
-  width: 35rem;
+  width: 45rem;
   height: 15rem;
-  position: relative;
-  border: 1px dotted magenta;
   margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+}
+.philblock {
+  width: 19rem;
+  height: 12rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.ic21 {
+  width: 9rem;
+  height: 3rem;
+  border-radius: 4px;
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-items: center;
+  font-weight: bold;
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: white;
+  padding-left: 1.25rem;
+
+
+}
+
+.ic211 {
+  width: 18rem;
+  height: 8rem;
+  margin-left: 0;
+  display: block;
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: grey;
+  background-color: white;
+  margin-top: 1.25rem;
+  border-radius: 4px;
+
+
+}
+
+.appblock {
+  width: 19rem;
+  height: 12rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.ic22 {
+  width: 9rem;
+  height: 3rem;
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-items: center;
+  font-weight: bold;
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: white;
+  padding-left: 1.25rem;
+  border-radius: 4px;
+
+
+}
+
+.ic221 {
+  width: 18rem;
+  height: 8rem;
+  margin-left: 0;
+  display: block;
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: grey;
+  background-color: white;
+  margin-top: 1.25rem;
+  border-radius: 4px;
+
+
+}
+.innerContainer3 {
+  width: 45rem;
+  height: 5rem;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  border-radius: 4px;
+
+
+}
+
+.siteContainer4 {
+display: flex;
+flex-direction: row;
+align-items: center;
+width: 960px;
+height: 3rem;
+background: white;
+opacity: 0.5;
+color: black;
+top: 1rem;
+margin-left: 0;
+font-family: Helvetica;
+font-size: 1rem;
+border-radius: 4px;
+
+
+}
+
+
+.siteContainer4 img {
+  max-height: 1.5rem;
+  max-width: 2rem;
+  margin-right: 1rem;
+  margin-left: 0;
 }
