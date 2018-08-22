@@ -1,69 +1,10 @@
-/*Body */
-
-html {
-  font-size: 18px;
-
-}
-
 /* Page Container */
 
-.pageContainer {
-width: 1600px;
-height: 1240px;
-
-}
-
-/*IPADS*/
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-
   .pageContainer {
-    width: 100%;
-    overflow: scroll;
+  width: 1600px;
+  height: 1240px;
+
   }
-
-  .siteContainer {
-    position: fixed;
-  }
-
-  .siteContainer2 {
-    margin-top: 5rem;
-    display: flex;
-    flex-direction: row;
-    width: 15%;
-    height: 3rem;
-    position: absolute;
-    background: white;
-    opacity: 0.5;
-    color: black;
-    top: 10rem;
-    margin-left: 4rem;
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 1.33rem;
-    border-radius: 4px;
-    text-align: center;
-    line-height: 1.2;
-  }
-  .upperContainer img {
-    width: 100%;
-    height: 22rem;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-radius: 4px;
-}
-
-/*IPhone*/
-
-@media only screen and (min-width: 375px) and (max-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-
-
-}
-
-
-
-/* Site Container */
 .siteContainer {
 display: flex;
 flex-direction: row;
@@ -367,4 +308,22 @@ border-radius: 4px;
   max-width: 2rem;
   margin-right: 1rem;
   margin-left: 0;
+}
+
+@media only screen and (max-width: 470px) {
+  .siteContainer2 {
+    display: none;
+  }
+
+  .siteContainer img {
+    display: none;
+  }
+
+  .siteContainer {
+    width: 15rem;
+  }
+
+  .upperContainer img {
+    width: 50%;
+  }
 }
